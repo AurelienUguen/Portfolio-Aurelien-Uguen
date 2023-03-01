@@ -61,8 +61,40 @@ h1 {
     position: absolute;
     top: 130px;
     left: 420px;
+    font-size: 50px;
 }
 
+header p {
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+}
+
+hr {
+    color: black;
+}
+
+section {
+    position: relative;
+    top: 580px;
+}
 section img {
     width: 200px;
+}
+
+.sectionprojets .sectionexperiences .sectioncontact{
+    height: 500px;
+}
+
+footer {
+    position: relative;
+    height: 60px;
+}
+
+footer p {
+    position: absolute;
+    top: 600px;
 }
