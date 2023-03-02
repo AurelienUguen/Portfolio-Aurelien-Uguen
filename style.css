@@ -15,10 +15,6 @@ hr {
     height: 3px;
 }
 
-html {
-    background: linear-gradient(45deg,rgb(198, 198, 198),rgb(236, 236, 236));
-    background-repeat: no-repeat;
-}
 
 /* Heaader Style */
 
@@ -41,7 +37,6 @@ header img {
     top: 150px;
     right: 80px;
     width: 50%;
-    background-color: aqua;
     margin: 20px;
     padding: 10px;
 }
@@ -121,10 +116,18 @@ section img {
     left: 100px;
 }
 
+.projets p {
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    padding: 10px;
+    margin: 10px;
+}
+
 .projets img {
     position: absolute;
     top: 80px;
-    right: 30px;
+    right: 50px;
     width: 30%;
 }
 
@@ -136,10 +139,68 @@ section img {
     top: 940px;
 }
 
+.experiences img {
+    position: absolute;
+    top: 80px;
+    left : 50px;
+    width: 30%;
+}
+
+.experiences h2 {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+
+.experiences p {
+    position: absolute;
+    top: 150px;
+    right: 80px;
+    padding: 10px;
+    margin: 10px;
+    text-align: right;
+}
+
 /* Style de la section Contact */
 
 .contact {
+    display: flex;
     position: absolute;
     width: 100%;
-    top: 4000px;
+    top: 1320px;
 }
+
+.contact h2 {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+
+.contact p {
+    position: absolute;
+    top: 215px;
+    left: 100px;
+    text-align: justify;
+}
+
+.contact fieldset {
+    position: relative;
+    top: 50px;
+    left: 200px;
+    padding: 5px;
+}
+
+.contact form {
+    width: 100%;
+}
+
+footer {
+    position: relative;
+}
+
+footer p {
+    position: absolute;
+    top: 1850px;
+    left: 50%
+}
+
