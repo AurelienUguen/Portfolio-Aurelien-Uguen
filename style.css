@@ -179,6 +179,7 @@ section .parcours h2 {
     right: 10%;
     top: 35%;
     width: 20%;
+    max-width: 15%;
 }
 
 /* Style du footer */
