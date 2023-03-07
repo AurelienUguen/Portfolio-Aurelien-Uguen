@@ -182,27 +182,30 @@ footer {
 
 .footer {
     display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 30px;
+    margin-left: 20px;
 }
 
 footer h2 {
     font-size: 35px;
 }
 
-.footertexte {
-    margin: 100px;
-    margin-top: 175px;
-    padding: 30px;
-    width: 30%;
-    text-align: justify;
+.footertexte, .formulaire {
+    align-items: center;
+    padding: 15px;
+    width: 40%;
 }
 
 fieldset {
-    padding-right: 50px;
-    padding-left: 50px;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
+    padding: 10px;
+    margin: 10px;
 }
+
+
 
 .copyright {
     text-align: center;
