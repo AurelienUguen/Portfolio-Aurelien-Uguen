@@ -50,7 +50,7 @@ nav a:hover {
 
 /* MEDIA QUERY FOR HEADER */
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 414px) {
     .header, .mainblocproject {
         display: flex !important;
         flex-direction: column !important;
