@@ -118,6 +118,14 @@ footer {
     color: white;
 }
 
+.mail {
+    text-decoration: none;
+}
+
+.mail:hover {
+    opacity: 0.5;
+}
+
 .social {
     width: 120px;
     display: flex;
