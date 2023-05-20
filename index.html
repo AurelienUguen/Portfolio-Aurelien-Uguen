@@ -1,78 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Aurélien Uguen | Apprenti Développeur Web</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Aurélien Uguen | Développeur Web</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <header>
+            <div>
+                <nav class="nav container-fluid justify-content-around align-items-center sticky-top">
+                    <a class="nav-link" href="#sectionprojets">Projets</a>
+                    <a class="nav-link" href="#sectionparcours">Parcours</a>
+                    <a class="nav-link" href="#sectioncontact">Contact</a>
+                </nav>
 
-</head>
-<body>
-    <header>
-            <div class="gauche">
-                <img src="img/PhotoAurelien_2.JPG" alt="PhotoAurelien" width="350px">
-            </div>
-        
-            <div class="droite">
-                <h1>Aurélien Uguen</h1>
-                <br><br>
-                <p>Actuellement en reconversion professionnel pour devenir <strong>développeur web</strong>, je suis en formation chez <strong><i>DonkeySchool</i></strong> ! <br><br> Avant d'entamer ce projet j'étais <strong>opérateur PAD</strong> dans le secteur musical, j'effectuais le contrôle qualité et j'assurais la bonne livraison des clips de musique pour les <strong>plateformes digitales</strong> et les <strong>chaînes de télévision.</strong></p>
-            </div>
-            
-            <nav>
-                <p>A.Uguen</p>
-                <ul>
-                    <li><a href="#sectionprojets">Projets</a></li>
-                    <li><a href="#sectionparcours">Parcours</a></li>
-                    <li><a href="#sectioncontact">Contact</a></li>
-                </ul>
-            </nav>
-    </header>
+                <div class="container-sm container-fluid d-flex justify-content-around align-items-center mt-5">
+                    <div>
+                        <img src="ressources/PhotoAurelien_1.JPG" alt="PhotoAurelien" width="350px" class="photo img-fluid"/>
+                    </div>
 
-    <section id="sectionprojets" class="sectionprojets">
+                    <div class="container-fluid m-5">
+                        <h1 class="display-5">Aurélien Uguen</h1>
+                        <p class="mt-4">
+                            Actuellement en reconversion professionnelle pour
+                            devenir <strong>développeur web</strong>, je suis en
+                            formation chez <strong><i>DonkeySchool</i></strong> !
+                            <br /><br />
+                            Avant d'entamer ce projet j'étais
+                            <strong>opérateur PAD</strong> dans le secteur musical,
+                            j'effectuais le contrôle qualité et j'assurais la bonne
+                            livraison des clips de musique pour les
+                            <strong>plateformes digitales</strong> et les
+                            <strong>chaînes de télévision.</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="sectionprojets" class="sectionprojets projets ">
     
-        <div class="projets">
-            <h2>Projets</h2>
-            <div class="animation">
-                <div class="neila">
-                    <h3>Neïla</h3>
-                    <br>
-                    <p>Projet d'animation fin d'étude auquel j'ai participé en tant que <strong>Sound Designer</strong>. L'histoire retrace la quête initiatique de Neïla, petite fille d'une tribu sibérienne, perdue au coeur de la toundra.</p> 
-                    <br><br>
-                    <iframe width="500" height="255" src="https://www.youtube.com/embed/nl6-ey5X1Dg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <br><br><br>
-                    <div class="ensavoirplus"><a href="https://www.isart.fr/galerie/cinema-animation-3d-fx/neila/" target="_blank">En savoir plus</a></div>
+            <br><br><br>
+            <h2 class="h2 d-flex justify-content-center">Projets</h2>
+            <br>
+
+            <div class="d-flex justify-content-center">
+
+                <div class="blocprojet justify-content-around align-items-center">
+                    <div class="container container-fluid d-flex flex-column align-items-center justify-content-center">
+                        <h3 class="display-6">Fuoriclasse</h3>
+                        <br>
+                        <p>Fuoriclasse est une entreprise récoltant des données dans le cyclisme et effecutant des statistiques sur mesures pour le compte de journaux et équipes professionnelles.</p> 
+                        <br><br>
+                        <a href="https://aurelienuguen.github.io/Fuoriclasse/" target="_blank" class="logohover""><img src="ressources/Fuoriclasse_Logo_White.png" alt="" width="250px" class="img-fluid"></a>
+                        <br><br><br>
+                        <div class="lien container-fluid mt-2"><a href="https://github.com/AurelienUguen/Fuoriclasse" target="_blank">Code</a></div>
+                    </div>
                 </div>
+
+                <div class="blocprojet justify-content-around align-items-center">
+                    <div class="container container-fluid d-flex flex-column align-items-center justify-content-center">
+                        <h3 class="display-6">PokeCenter</h3>
+                        <br>
+                        <p>Projet TypeScript, simulateur de guérison de Pokémon, effectué en groupe dans le cadre de DonkeySchool. création de l'interface graphique et manipulation du DOM.</p> 
+                        <br>
+                        <img src="ressources/PokemonLogo.png" alt="" width="100px" class="img-fluid">
+                        <br><br>
+                        <div class="lien container-fluid mt-2"><a href="https://github.com/AurelienUguen/PokemonHealthCenter" target="_blank">Code</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+
+                <div class="blocprojet justify-content-around align-items-center">
+                    <div class="container container-fluid d-flex flex-column align-items-center justify-content-center">
+                        <h3 class="display-6">Guess My Number</h3>
+                        <br>
+                        <p>Guess My Number est un petit jeu dont il faut devenir un nombre généré aléatoirement. Projet réalisé en JavaScript.</p> 
+                        <br><br>
+                        <a href="https://aurelienuguen.github.io/GuessMyNumber/" target="_blank" class="logohover""><img src="ressources/GuessMyNumber.png" alt="" width="100px" class="img-fluid"></a>
+                        <br><br>
+                        <div class="lien container-fluid mt-2"><a href="https://github.com/AurelienUguen/GuessMyNumber" target="_blank">Code</a></div>
+                    </div>
+                </div>
+
+                <div class="blocprojet justify-content-around align-items-center">
+                    <div class="container container-fluid d-flex flex-column align-items-center justify-content-center">
+                        <h3 class="display-6">DonkeyEvent</h3>
+                        <br>
+                        <p>Projet de site de réservation d'évenement effectué dans le cadre de la formation DonkeySchool. Travail de groupe, frontend et backend.</p> 
+                        <br><br>
+                        <img src="ressources/DonkeyEvent_Logo_2.png" alt="" width="250px" class="img-fluid">
+                        <br><br>
+                        <div class="lien container-fluid mt-2"><a href="https://github.com/AurelienUguen/Fuoriclasse" target="_blank">Code</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sectionparcours" class="sectionparcours">
+
                 
-                <div class="murphy">
-                    <h3>Murphy</h3>
-                    <br>
-                    <p>Projet de fin de première année auquel j'ai participé en tant que <strong>Sound Designer</strong>. On y suit un parachutiste anglais lors de la second guerre mondiale, qui blessé, fait la rencontre d'une créature des bois qui tente de l'aider tant bien que mal...</p> 
-                    <br><br>
-                    <iframe src="https://player.vimeo.com/video/105329114?h=73c6567309" width="500" height="255" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-                    <br><br><br>
-                    <div class="ensavoirplus"><a href="https://www.isart.fr/galerie/cinema-animation-3d-fx/murphy/" target="_blank">En savoir plus</a></div>
-                </div>
-            </div>
+            <br><br><br>
+            <h2 class="h2 d-flex justify-content-center">Parcours</h2>
+            <br>
 
-            <div class="jeuxvideo">
-                <div class="dcity">
-                    <h3>D-City</h3>
-                    <br>
-                    <p>Projet jeu-vidéo de fin d'étude sur lequel j'ai travaillé en tant que <strong>Compositeur</strong> et <strong>Sound Designer</strong>. Nous y incarnons un développeur piégé dans son propre jeu vidéo et qui peut librement activer et désactiver la collision de certains objets.</p>
-                    <br><br>
-                    <iframe width="500" height="255" src="https://www.youtube.com/embed/qQBfMbte1Fk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <br><br><br>
-                    <div class="ensavoirplus"><a href="https://www.isart.fr/galerie/jeu-video/d-city/" target="_blank">En savoir plus</a></div>
-                </div>
-            </div>
+            <div class="parcours container container-fluid d-flex">
+                 
 
-            <section id="sectionparcours" class="sectionparcours">
-                <div class="parcours">
-                    <h2>Parcours</h2>
-                    <div class="blocformation">
-                        <div class="gaucheparcours">
+                <div class="d-flex justify-content-around align-items-center">
+                    <div class="blocformation d-flex flex-column">
                             <div class="parcours1">
                                 <h3>DonkeySchool : Février 2023</h4>
                                 <p>Je suis actuellement en reconversion professionnelle chez <strong>DonkeySchool</strong> afin de devenir <strong>Développeur Web & Mobile</strong>. Apprentissage du <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> et bien d'autre!</p>
@@ -86,49 +132,46 @@
                             <div class="parcours3">
                                 <h3>ISART Digital : 2013 - 2015</h4>
                                 <p>Ecole spécialisée dans le jeu-vidéo et l'animation. J'ai suivi le cursus <strong>Music & Sound Design</strong> ou nous apprenons la création et l'intégration d'une bande sonore dans le jeu-vidéo. Diplomé en <strong>2015</strong>.</p>
-                            </div>
-                        </div>
-                        <img class="droiteparcours" src="img/parcours.png" alt="ImageParcours" width="400px">
-                    </div>  
+                            </div>  
+                    </div> 
+                    <img class="parcours-img" src="ressources/parcours.png" alt="ImageParcours">
                 </div>
-            </section>
             </div>
-    </section>
+            <br><br><br><br>
+        </section>
+    
 
-    <footer id="sectioncontact">
-            <div class="footer">
-                <div class="footertexte">
-                    <h2>Me contacter</h2>
-                    <br><br>
-                    <p>Pour me contacter, rien de plus simple ! Il suffit de remplir le formulaire suivant et je vous répondrai dès que possible.</p>
+
+        <footer id="sectioncontact">
+            <br><br><br>
+            <h2 class="h2 d-flex justify-content-center">Me contacter</h2>
+            <br><br><br>
+                
+            <div class="d-flex container container-fluid justify-content-center contact">
+                <div class="container">
+                    <p class="h4"><strong>Email : </strong>aurelien.uguen@gmail.com</p>
+                    <p class="h4"><strong>Phone : </strong>+33 6 40 94 53 57</p>
                 </div>
-                <div class="formulaire">
-                    <form action="post">
-                        <fieldset>
-                            <br>
-                            <label for="Name">Prénom & Nom </label><br><br><input type="text" size="30" placeholder="Oliver Dubois"></label>
-                            <br><br>
-                            <label for="Email">E-mail </label><br><br><input type="email" size="30" placeholder="olivier.dubois@fakemail.com"></label>
-                            <br><br>
-                            <label for="Message">Votre message : </label>
-                            <br><br>
-                            <textarea cols="40" rows="8" placeholder="Hello ! J'aime beaucoup ton portfolio ..."></textarea>
-                            <br><br>
-                            <input type="submit">
-                            <br><br>
-                        </fieldset>
-                    </form>
+                <div>
+                    <ul class="d-flex">
+                        <li>
+                            <a href="https://github.com/AurelienUguen"><img src="ressources/github.png" alt="githublogo" class="social"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/aurelien-uguen/"><img src="ressources/linkedin.png" alt="linkedinlogo" class="social"></a>
+                        </li>
+                    </ul>
                 </div>
-            
-            <div class="reseauxsociaux">
-                <ul>
-                    <li><a href="https://www.instagram.com/aurelien_cnpch/" target="_blank"><img src="img/instagram.png" alt="InstagramLogo" width="60px"><br>Instagram</a></li>
-                    <li><a href="https://soundcloud.com/echoesmusic-1" target="_blank" class="soundcloud"><img src="img/soundcloud.png" alt="SoundcloudLogo" width="60px"><br>Soundcloud</a></li>
-                </ul>
             </div>
-        </div>
-        <br><br><p class="copyright">Portfolio <strong>Mars 2023</strong></p><br><br>
+           
+               
+            
+            
     </footer>
- 
-</body>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>
