@@ -18,8 +18,6 @@ h1, h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
-
 .intro {
     margin-top: 100px;
 }
@@ -50,6 +48,44 @@ nav a:hover {
     width: 80% !important;
 }
 
+/* MEDIA QUERY FOR HEADER */
+
+@media screen and (max-width: 412px) {
+    .header, .mainblocproject {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .contact {
+        text-align: center !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .projets {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mainblocproject {
+        width: 90%;
+    }
+
+    .mainblocformation {
+        display: flex !important;
+        flex-direction: column-reverse !important;
+        justify-content: center !important;
+        align-items: center !important;
+        width: 100% !important;
+    }
+
+
+}
 /* Style de la section projets */
 
 .sectionprojets {
@@ -92,6 +128,13 @@ nav a:hover {
 
 .logohover:hover {
     opacity: 0.5;
+}
+
+@media screen and (max-width: 412px) {
+    .projets {
+        display: flex !important;
+        flex-direction: column !important;
+    }
 }
 
 /* Style de la section parcours */
